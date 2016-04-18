@@ -11,3 +11,37 @@ Instance Variables - Each object has its unique set of instance variables.
 					An object's state is created by the values assigned to these 
 					instance variables.
 					
+A C++ identifier is a name used to identify a variable, function, class, module, 
+or any other user-defined item. An identifier starts with a letter A to Z or a to z 
+or an underscore (_) followed by zero or more letters, underscores, and digits (0 to 9).
+
+typedef - You can create a new name for an existing type using typedef. 
+		syntax: typedef type newname; 
+
+constants - Using #define preprocessor
+			Eg: #define identifier value
+			
+			Using const keyword, which is used to declare constants with a specific type 
+			Eg: const type variable = value;
+			
+Register - this storage class is used to define local variables that should be stored in a register 
+			instead of RAM
+			Eg: register int  miles;
+
+static - storage class instructs the compiler to keep a local variable in existence during 
+		the life-time of the program instead of creating and destroying it each time it comes
+		into and goes out of scope.
+
+comma operator - It is to string together several expressions. The value of a comma-separated 
+			list of expressions is the value of the right-most expression. 
+		
+		Eg: var = (count=19, incr=10, count+1);
+		Here first assigns count the value 19, assigns incr the value 10, then adds 1 to count,
+		and finally, assigns var the value of the rightmost expression, count+1, which is 20.
+		The parentheses are necessary because the comma operator has a lower precedence than
+		the assignment operator.
+		
+Address of Operator & 
+Indirection Operator *
+. (dot) operator and the -> (arrow) operator are used to reference individual members of 
+classes, structures, and unions.
